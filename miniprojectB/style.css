@@ -5,42 +5,31 @@
     padding: 0;
     font-family: 'Raleway', sans-serif; 
 }
-.portada{
-    max-width: 1990px;
-}
 .banner{
-    width:  100%;
-    height:auto;
-    background-image: url(img/shadow-back2.jpg);
+    width: auto;
+    height: auto;
+    background-image: url(img/sunset-2409774_1920.jpg);
     background-position: center center;
+    background-size:auto;
+    padding-bottom:30px;
+}
+.banner-heading{
+    margin-top: 150px;
+}
+.banner-btn{
+    background-color: aqua;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.banner-btn:hover{
+    background-color: rgb(36,151,151)!important;
+    border: none;
+}
+.blog-img{
+    background-image: url(img/starfish-343791_1280.jpg);
+    width:50%;
+    height:30vh;
     background-size:cover;
+    background-position: center;
 }
-.img-center{
-    flex-basis:33%;
-}
-
-@media (min-width: 576px) {
-    .img-center{
-        flex-basis:20%;
-    }
-    .sombra-izquierda,.sombra-derecha{
-        flex-basis:20%;
-    }
-}
-.sombra-derecha{
-    -webkit-box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.83);
-    -moz-box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.83);
-    box-shadow: 8px 0px 11px 0px rgba(0,0,0,0.83);
-    }
-    
-    .sombra-centro{
-    -webkit-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.91);
-    -moz-box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.91);
-    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.91);
-    }
-    
-    .sombra-izquierda{
-    -webkit-box-shadow: -8px 0px 11px 0px rgba(0,0,0,0.83);
-    -moz-box-shadow: -8px 0px 11px 0px rgba(0,0,0,0.83);
-    box-shadow: -8px 0px 11px 0px rgba(0,0,0,0.83);
-    }

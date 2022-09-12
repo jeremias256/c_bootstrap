@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Dropdown</title>
+</head>
+<style>
+    
+</style>
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <!-- dropdown con botton -->
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-1" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-1">
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+                </div>
+
+                <!-- dropdown con enlace -->
+                <div class="dropdown mt-4">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item dropdown drop-down02">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            mostrar sub items
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown-lvl2">           
+                                <li><a href="#" class="dropdown-item">Subelemento</a></li>
+                                <li><a href="#" class="dropdown-item">Subelemento</a></li>
+                                <li><a href="#" class="dropdown-item">Subelemento</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+                </div>
+
+                <div class="btn-group mt-4">
+                    <!-- dropdown con botton -->
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-3" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Boton drowdown
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-3">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- dropdown con enlace -->
+                    <div class="dropdown ms-4">
+                        <a href="#" class="btn btn-primary dropdown-toggle" type="button" 
+                        id="dropdown-4" data-bs-toggle="dropdown" aria-expanded="false">
+                        Boton drowdown
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-4">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- dropdown up -->
+                    <div class="dropup">
+                        <button class="btn btn-dark btn-sm dropdown-toggle" type="button" id="dropup-1" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Boton dropup
+                        </button>
+
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropup-1">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- dropdown start -->
+                    <div class="dropstart">
+                        <button class="btn btn-dark btn-sm dropdown-toggle" type="button" id="dropstart-1" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        dropstart
+                        </button>
+
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropstart-1">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- dropdown end -->
+                    <div class="dropend">
+                        <button class="btn btn-dark btn-sm dropdown-toggle" type="button" id="dropend-1" 
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        dropstart
+                        </button>
+
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropend-1">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- dropdown split -->
+                <div class="dropdown mt-4">
+                    <div class="btn-group">
+                        <button class="btn btn-success">Boton</button>
+                        <button class="btn btn-success dropdown-toggle dropdown-toggle-split" type="button" 
+                                id="dropdown-5" data-bs-toggle="dropdown" aria-expanded="false">
+                        </button>
+                        <span class="visually-hidden">Mostrar / Ocultar Menu</span>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown-5">
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                            <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- dropdown oscuro -->
+                <div class="dropdown mt-4">
+                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdown-1" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- dropdown grande -->
+                <div class="dropdown mt-4">
+                    <button class="btn btn-dark btn-lg dropdown-toggle" type="button" id="dropdown-1" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- dropdown pequeño -->
+                <div class="dropdown mt-4">
+                    <button class="btn btn-dark btn-sm dropdown-toggle" type="button" id="dropdown-1" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdown-1">
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col">
+                <!-- dropdown con botton -->
+                <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdown-personalizado" 
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Boton drowdown
+                    </button>
+
+                    <ul class="dropdown-menu" aria-labelledby="dropdown-personalizado">
+                        <li>
+                            <h6 class="dropdown-header">Encabezado</h6>
+                        </li>
+                        <li class="dropdown-item">Elemento item</li>
+                        <li> <hr class="dropdow-divider"></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                        <li><a href="#" class="dropdown-item">Elemento</a></li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script>
+        (function($bs) {
+		const CLASS_NAME = 'has-child-dropdown-show';
+			$bs.Dropdown.prototype.toggle = function(_orginal) {
+				return function() {
+					document.querySelectorAll('.' + CLASS_NAME).forEach(function(e) {
+						e.classList.remove(CLASS_NAME);
+					});
+					let dd = this._element.closest('.dropdown').parentNode.closest('.dropdown');
+					for (; dd && dd !== document; dd = dd.parentNode.closest('.dropdown')) {
+						dd.classList.add(CLASS_NAME);
+					}
+					return _orginal.call(this);
+				}
+			}($bs.Dropdown.prototype.toggle);
+
+			document.querySelectorAll('.dropdown').forEach(function(dd) {
+				dd.addEventListener('hide.bs.dropdown', function(e) {
+					if (this.classList.contains(CLASS_NAME)) {
+						this.classList.remove(CLASS_NAME);
+						e.preventDefault();
+					}
+					if(e.clickEvent && e.clickEvent.composedPath().some(el=>el.classList && el.classList.contains('dropdown-toggle'))){
+						e.preventDefault();
+					}
+					e.stopPropagation(); // do not need pop in multi level mode
+				});
+			});
+
+			// for hover
+			function getDropdown(element) {
+				return $bs.Dropdown.getInstance(element) || new $bs.Dropdown(element);
+			}
+
+			document.querySelectorAll('.dropdown-hover, .dropdown-hover-all .dropdown').forEach(function(dd) {
+				dd.addEventListener('mouseenter', function(e) {
+					let toggle = e.target.querySelector(':scope>[data-bs-toggle="dropdown"]');
+					if (!toggle.classList.contains('show')) {
+						getDropdown(toggle).toggle();
+					}
+				});
+				dd.addEventListener('mouseleave', function(e) {
+					let toggle = e.target.querySelector(':scope>[data-bs-toggle="dropdown"]');
+					if (toggle.classList.contains('show')) {
+						getDropdown(toggle).toggle();
+					}
+				});
+			});
+		})(bootstrap);
+    </script>
+</body>
+</html>

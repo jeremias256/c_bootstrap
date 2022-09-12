@@ -29,7 +29,7 @@
 .blog-img{
     background-image: url(img/starfish-343791_1280.jpg);
     width:50%;
-    height:30vh;
-    background-size:cover;
-    background-position: center;
+    height:auto;
+    background-size: center;
+    background-position: center center;
 }
